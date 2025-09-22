@@ -8,7 +8,6 @@ int main() {
     cout << "Enter the student's score (0-100): ";
     cin >> score;
 
-    // Determine grade
     if(score >= 90 && score <= 100)
         cout << "Grade: A" << endl;
     else if(score >= 80)

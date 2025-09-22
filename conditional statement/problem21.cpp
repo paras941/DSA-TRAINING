@@ -7,7 +7,7 @@ int main() {
     cout << "Enter four numbers: ";
     cin >> a >> b >> c >> d;
 
-    largest = a; // assume a is largest
+    largest = a; 
 
     if(b > largest) largest = b;
     if(c > largest) largest = c;

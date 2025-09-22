@@ -7,14 +7,11 @@ int main() {
     for(int num = 1; num < 1000; num++) {
         int sum = 0, temp = num, digits = 0;
 
-        // Count digits
         int t = num;
         while(t != 0) {
             digits++;
             t /= 10;
         }
-
-        // Sum of powers
         while(temp != 0) {
             int rem = temp % 10;
             sum += pow(rem, digits);

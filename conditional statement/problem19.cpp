@@ -17,7 +17,6 @@ int main() {
             days = 30;
             break;
         case 2:
-            // Leap year check
             if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
                 days = 29;
             else

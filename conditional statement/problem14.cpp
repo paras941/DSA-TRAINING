@@ -4,11 +4,11 @@ using namespace std;
 int main() {
     int num1, num2;
 
-    // Input two integers
+    
     cout << "Enter two integers: ";
     cin >> num1 >> num2;
 
-    // Check for division by zero
+
     if (num2 == 0) {
         cout << "Cannot divide by zero!" << endl;
     } 

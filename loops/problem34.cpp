@@ -8,7 +8,6 @@ bool isPerfectSquare(int x) {
 }
 
 bool isFibonacci(int n) {
-    // A number is Fibonacci if 5*n^2 + 4 or 5*n^2 - 4 is a perfect square
     return isPerfectSquare(5*n*n + 4) || isPerfectSquare(5*n*n - 4);
 }
 

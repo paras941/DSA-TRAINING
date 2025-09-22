@@ -15,14 +15,14 @@ int main() {
     cout << "Enter selling price of bananas per dozen: ";
     cin >> sellingPricePerDozen;
 
-    // Calculate cost price and selling price for 25 bananas
+    
     costPrice = (costPricePerDozen / 12) * 25;
     sellingPrice = (sellingPricePerDozen / 12) * 25;
 
-    // Calculate profit or loss
+
     profitOrLoss = sellingPrice - costPrice;
 
-    // Display result
+    
     if(profitOrLoss > 0)
         cout << "Profit earned = " << profitOrLoss << endl;
     else if(profitOrLoss < 0)
