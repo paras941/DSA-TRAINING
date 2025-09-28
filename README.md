@@ -92,7 +92,8 @@ DSA-TRAINING/
 Compile using g++:
 ```bash
 g++ filename.cpp -o output
-./output
+ ./output
+
 
 
 
